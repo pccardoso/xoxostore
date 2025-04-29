@@ -27,5 +27,5 @@ Este projeto é uma página web desenvolvida com foco em apresentação instituc
 
 ---
 
-Desenvolvido por Paulo – Evogard
-📩 Contato profissional: https://www.linkedin.com/in/paulo-cesar-b073881a0/
+Desenvolvido por Paulo Cesar
+- 📩 Contato profissional: https://www.linkedin.com/in/paulo-cesar-b073881a0/
