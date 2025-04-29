@@ -1,0 +1,637 @@
+#carouselMobile{
+    display: none;
+}
+
+.desc-item-car{
+    width: 380px;
+    padding-left: 10px;
+}
+
+.item-img img{
+    width: 100%;
+    height: 310px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.desc_departamento{
+    min-height: 80px;
+}
+
+@media only screen and (max-width: 600px) {
+    .desc-item-car{
+        padding-left: 10px;
+        width: 200px;
+    }
+
+    #carouselNote{
+        display: none;
+    }
+
+    #carouselMobile{
+        display: block;
+    }
+
+    .item-img img{
+        width: 100%;
+        height: 480px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+
+    .desc_departamento{
+        min-height: 10px;
+    }
+}
+
+body{
+    background-color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+::selection {
+    background-color: rgb(57, 57, 57);
+    color: rgb(255, 255, 255);
+}
+
+.page{
+    padding-bottom: 60px;
+}
+
+.card-menu1, .card-menu2, .card-menu3, .card-menu4{
+    background-color: rgb(255, 255, 255);
+    padding-top: 10px;
+    padding-bottom: 15px;
+    border-bottom-style: solid;
+    border-bottom-width: 2pt;
+    border-bottom-color:  rgb(228, 228, 228);
+    display: none;
+}
+
+.card-item{
+    padding: 10px;
+}
+
+.card-item p{
+    text-align: justify;
+}
+
+.card-item h5{
+    border-left-style: solid;
+    border-left-width: 3pt;
+    padding-left: 8px;
+    border-left-color:  rgb(255, 98, 36);
+    font-family: "Cinzel";
+}
+
+input{
+    border-radius: 0px;
+}
+
+.form-control, .btn{
+    border-radius: 0px;
+}
+
+.form-control{
+    font-size: 16pt;
+}
+
+.form-group label{
+    font-size: 14pt;
+}
+
+.btn-white{
+    background-color: none;
+    border-color: white;
+    color:white;
+}
+
+.btn-white:hover{
+    background-color: white;
+    border-color: black;
+    color: black;
+    transition: 1s;
+}
+
+.btn-black{
+    background-color: none;
+    border-color: black;
+    color:black;
+}
+
+.btn-black:hover{
+    background-color: black;
+    border-color:black;
+    color: white;
+    transition: 1s;
+}
+
+.title-menu{
+    text-align: left;
+    font-family: "Cinzel";
+}
+
+.page{
+    padding-top: 50px;
+}
+
+.box-social{
+    padding-top: 5px;
+    min-height: 25px;
+}
+
+.box-social a{
+    color: black;
+    text-decoration: none;
+}
+
+.box-social p{
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.box-item{
+    margin-bottom: 20px;
+    border-style: solid;
+    border-width: 1pt;
+    background-color: white;
+    border-color: rgb(225, 225, 225);
+    border-radius: 10px;
+}
+
+.box-item:hover{
+    box-shadow: 4px 4px 4px rgb(225, 225, 225);
+    transition: 1s;
+}
+
+.item-desc{
+    padding: 10px;
+    min-height: 100px;
+    background-color: #ffffff;
+    color:rgb(60, 60, 60);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    text-align: center;
+    border-top-style: solid;
+    border-top-width: 3pt;
+    border-top-color: rgb(92, 92, 92);
+}
+
+.item-desc a{
+    text-decoration: none;
+    color:#3b3b3b;
+}
+
+.item-desc p{
+    margin-bottom: 0px;
+    font-family: "Cinzel";
+    margin-top: 0px;
+    font-size: 14pt;
+}
+
+.item-add{
+    text-align: center;
+}
+
+.main{
+    min-height: 500px;
+}
+
+.footer{
+    background-color: #212529;
+    color: white;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.footer h4{
+    font-family: "Cinzel";
+}
+
+.item-car{
+    border-radius: 3px;
+    color: rgb(62, 61, 61);
+    margin-bottom: 5px;
+    float: left;
+}
+
+.item-car img{
+    width: 100%;
+    height: 100%;
+}
+
+.img-item-car{
+    width: 55px;
+    height: 55px;
+}
+
+.action-item-car{
+    margin-top: 9px;
+    text-align: center;
+    width: 50px;
+}
+
+.desc-item-car h5{
+    margin-bottom: 0px;
+    margin-top: 2px;
+    font-size: 12pt;
+}
+
+.desc-item-car a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.box-quantidade{
+    margin-top: 20px;
+    width: 200px;
+}
+
+.box-quantidade input{
+    font-size: 16pt;
+    border-style: solid;
+    border-width: 1pt;
+    border-color: black;
+}
+
+.box-car{
+    margin-bottom: 25px;
+}
+
+.desc-item-car, .action-item-car, .img-item-car{
+    float: left;
+}
+
+.form-login input{
+    background-color: transparent;
+    border-style: none;
+    border-bottom: solid;
+    border-bottom-width: 1pt;
+    border-bottom-color: #212529;
+}
+
+.form-login input:focus{
+    background-color: transparent;
+    box-shadow: 0 0 0 0;
+    border-bottom: solid;
+    border-bottom-width: 2pt;
+    border-bottom-color: white;
+}
+
+.form-cad{
+    padding: 20px;
+}
+
+.form-cad input{
+    background-color: transparent;
+    border-style: none;
+    border-bottom: solid;
+    border-bottom-width: 1pt;
+    border-bottom-color: #ffffff;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.form-cad input:focus{
+    background-color: transparent;
+    box-shadow: 0 0 0 0;
+    border-bottom: solid;
+    border-bottom-width: 2pt;
+    border-bottom-color: white;
+    color: white;
+}
+
+.modal-body {
+    position: relative;
+    flex: 1 1 auto;
+    padding: 0px;
+    background-color: #212529;
+    border-radius: 0px;
+    color:white;
+}
+
+.modal-img{
+    background-image: url("../img/vintage.webp");
+    border-style: none;
+}
+
+.card-gal{
+    width: 100%;
+    height: 190px;
+    background-repeat: none;
+    background-size: 100%;
+}
+
+.card-gal:hover div{
+    transition: 1s;
+    display: block;
+    background-color: rgba(0, 0, 0, 0.576);
+}
+
+.card-gal div{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: none;
+    padding: 20px;
+    color: white;
+}
+
+.card-gal h5 p{
+    font-weight: bold;
+}
+
+.box-filtro{
+    margin-bottom: 15px;
+}
+
+.btn-radius{
+    border-radius: 30px;
+}
+
+.img-view{
+    width: 100%;
+}
+
+.img-vis-box{
+    margin-bottom: 10px;
+}
+
+.img-vis-box img{
+    height: 450px;
+}
+
+.img-view-small{
+    margin-top: 10px;
+    border-style: solid;
+    border-width: 1pt;
+    border-color: rgb(188, 187, 187);
+    width: 80px;
+    height: 80px;
+    float: left;
+    margin-right: 10px;
+}
+
+.img-view-small img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.div-circle{
+    width: 40px;
+    height: 40px;
+    border-style: solid;
+    border-width: 1pt;
+    border-radius: 50px;
+    display: block;
+}
+
+.div-circle:hover{
+    transition: 1s;
+    box-shadow: 4px 4px 4px rgb(225, 225, 225);
+}
+
+.div-red{
+    background-color: red;
+}
+
+.div-blue{
+    background-color: blue;
+}
+
+.div-pink{
+    background-color: rgb(255, 103, 129);
+}
+
+.div-green{
+    background-color: green;
+}
+
+.div-yellow{
+    background-color: yellow;
+}
+
+.nav-bar{
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+.but{
+    width: 120px;
+    height:50px;
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+}
+
+.box-info{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.box-info h1{
+    font-size: 50pt;
+    font-family: "Cinzel";
+}
+
+.box-info h4{
+    font-family: "Cinzel";
+}
+
+
+.box-info p{
+    color: gray;
+}
+
+.title{
+    border-left-style: solid;
+    border-left-width: 5pt;
+    border-left-color: orange;
+    padding-left: 10px;
+}
+
+#title{
+    font-family: "Cinzel";
+}
+
+.box-phone a{
+    color: white;
+    text-decoration: none;
+}
+
+.box-infor a{
+    color: white;
+    text-decoration: none;
+    font-size: 13pt;
+}
+
+.box-infor li{
+    margin-left: none;
+}
+
+.box-infor, .box-listener, .box-phone{
+    margin-bottom: 30px;
+}
+
+.text-right{
+    text-align: right;
+}
+
+.box-checkout{
+    display: block;
+}
+
+.box-entrega{
+    display: none;
+}
+
+.box-resumo{
+    display: none;
+}
+
+#ver_entrega{
+    display: none;
+}
+
+.box-loading{
+    display: none;
+}
+
+#pre_ende{
+    display: none;
+}
+
+.progresso{
+    border-bottom-color: rgb(80, 80, 80);
+    border-bottom-style: solid;
+    border-bottom-width: 8pt;
+    margin-bottom: 20px;
+    width: 0px;
+}
+
+#box-grade01, #box-grade02{
+    display: none;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.btn-check:active+.btn-secondary, .btn-check:checked+.btn-secondary, .btn-secondary.active, .btn-secondary:active, .show>.btn-secondary.dropdown-toggle {
+    color: #fff;
+    background-color: #000000;
+    border-color: #51585e;
+}
+
+.breadcrumb a{
+    text-decoration: none;
+    color: #212529;
+}
+
+.nav-link {
+    font-size: 16pt;
+    color:rgb(0, 0, 0);
+    font-family: "Cinzel";
+}
+
+.navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .show>.nav-link{
+    color:rgb(154, 131, 2);
+}
+
+.navbar-brand img{
+    width: 180px;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color:rgb(47, 47, 47);
+}
+.dropdown-item{
+    font-family: "Cinzel";
+}
+
+.scrollspy-example p{
+    font-family: "Playwrite US Trad", cursive;
+    font-size: 14pt;
+    text-indent:4em;
+    text-align: justify;
+    margin-top: 15px;
+}
+
+.scrollspy-example h4{
+    font-size: 20pt;
+}
+
+.premium-box{
+    position: absolute;
+    float: right;
+    font-size: 30pt;
+    padding: 10px;
+    color: #686868;
+}
+
+.premium-box-back{
+    background-color: #686868;
+    color: white;
+}
+
+.premium-box-back a{
+    color: rgb(255, 255, 255);
+}
+
+.form-range{
+    color: black;
+}
+
+.dropdown-menu a{
+    font-size: 14pt;
+}
+
+.box-ambiente{
+    text-align: center;
+}
+
+.box-ambiente a{
+    text-decoration: none;
+}
+
+.item-esgotado img{
+        -webkit-filter: grayscale(100%);
+        filter: grayscale(100%);
+        filter: rgb(14, 14, 14); /* IE */
+}
+
+.item-action{
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+    background-color: transparent;
+    color: black;
+}
+
+.box-help{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.box-collection div{
+    border-radius: 5px;
+    border-color: black;
+    margin: 10px;
+    background-position: center;
+    background-size: 450px;
+    padding: 20px;
+}
+
+.collection-act a{
+    margin-top: 200px;
+    text-align: center;
+}
+
+.collection-act{
+    text-align: center;
+}
