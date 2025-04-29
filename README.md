@@ -1,4 +1,4 @@
-# XOXO Store e-Commerce
+# 💻 XOXO Store e-Commerce
 
 Este projeto é uma página web desenvolvida com foco em apresentação institucional e interface dinâmica para navegação leve e agradável.  
 🔗 **Acesse aqui:** [https://www.usexoxo.com.br/app/page/index.php](https://www.usexoxo.com.br/app/page/index.php)
