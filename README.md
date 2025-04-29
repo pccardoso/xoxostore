@@ -1,6 +1,6 @@
 # XOXO Store e-Commerce
 
-Este projeto é uma página web desenvolvida com foco em apresentação institucional, landing page e interface dinâmica para navegação leve e agradável.  
+Este projeto é uma página web desenvolvida com foco em apresentação institucional e interface dinâmica para navegação leve e agradável.  
 🔗 **Acesse aqui:** [https://www.usexoxo.com.br/app/page/index.php](https://www.usexoxo.com.br/app/page/index.php)
 
 ---
@@ -25,7 +25,7 @@ Este projeto é uma página web desenvolvida com foco em apresentação instituc
 - Leve e otimizada para carregamento rápido
 - Suporte a grade de produtos (tamanhos P/M/G/* e 36/38/*)
 
----  
+---
 
 Desenvolvido por Paulo – Evogard
 📩 Contato profissional: https://www.linkedin.com/in/paulo-cesar-b073881a0/
